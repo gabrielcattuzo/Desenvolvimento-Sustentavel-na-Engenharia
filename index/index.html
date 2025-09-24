@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Sustentável na Engenharia</title>
+    <meta name="description" content="Site de divulgação científica sobre Desenvolvimento Sustentável na Engenharia — 8 temas fundamentais para um futuro mais sustentável."
+    <meta name="keywords" content="desenvolvimento sustentável, energia limpa, sustentabilidade, meio ambiente, ciência">
+    <meta name="author" content="Equipe de Divulgação Científica">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <div class="container">
+        <!-- Header Section -->
+        <header class="site-header" role="banner">
+            <nav class="header-nav" role="navigation" aria-label="Menu principal">
+                <button 
+                    class="menu-toggle" 
+                    id="menuToggle" 
+                    aria-controls="navigationDrawer" 
+                    aria-expanded="false" 
+                    aria-label="Abrir menu de navegação"
+                    type="button"
+                >
+                    <span class="hamburger-box">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </span>
+                </button>
+            </nav>
+
+            <div class="brand">
+                <div class="logo" aria-hidden="true">
+                    <span class="logo-text">DS</span>
+                </div>
+                <div class="brand-info">
+                    <h1 class="site-title">Desenvolvimento Sustentável na Engenharia</h1>
+                    <p class="site-tagline">Ciência acessível, soluções reais</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Drawer -->
+        <nav class="navigation-drawer" id="navigationDrawer" aria-hidden="true" role="navigation" aria-label="Temas de sustentabilidade">
+            <div class="drawer-content" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+                <header class="drawer-header">
+                    <h2 id="drawer-title" class="drawer-title">Menu de Temas</h2>
+                    <p class="drawer-subtitle">8 páginas de divulgação científica sobre sustentabilidade</p>
+                </header>
+
+                <ul class="navigation-list" role="menu">
+                    <li role="none">
+                        <button class="nav-item active" data-target="energia" role="menuitem" tabindex="0">
+                            <span class="nav-number">01</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Energia Limpa</strong>
+                                <small class="nav-description">Fontes renováveis, eficiência</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="agua" role="menuitem" tabindex="-1">
+                            <span class="nav-number">02</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Água</strong>
+                                <small class="nav-description">Gestão e conservação</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="biodiversidade" role="menuitem" tabindex="-1">
+                            <span class="nav-number">03</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Biodiversidade</strong>
+                                <small class="nav-description">Conservação de espécies</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="agricultura" role="menuitem" tabindex="-1">
+                            <span class="nav-number">04</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Agricultura Sustentável</strong>
+                                <small class="nav-description">Agroecologia e solo</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="residuos" role="menuitem" tabindex="-1">
+                            <span class="nav-number">05</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Resíduos</strong>
+                                <small class="nav-description">Reduzir, reciclar, reaproveitar</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="cidades" role="menuitem" tabindex="-1">
+                            <span class="nav-number">06</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Cidades e Mobilidade</strong>
+                                <small class="nav-description">Urbanismo e transporte</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="educacao" role="menuitem" tabindex="-1">
+                            <span class="nav-number">07</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Educação Ambiental</strong>
+                                <small class="nav-description">Comunicação e engajamento</small>
+                            </div>
+                        </button>
+                    </li>
+                    <li role="none">
+                        <button class="nav-item" data-target="politicas" role="menuitem" tabindex="-1">
+                            <span class="nav-number">08</span>
+                            <div class="nav-content">
+                                <strong class="nav-title">Políticas e Economia</strong>
+                                <small class="nav-description">Governança e incentivos</small>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+
+                <footer class="drawer-footer">
+                    <p class="version-info">Versão demo · 2025</p>
+                </footer>
+            </div>
+
+            <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content" class="main-content" role="main">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <span class="content-badge">Série: Sustentabilidade em foco</span>
+                    <h2 id="pageTitle" class="page-title">Energia Limpa</h2>
+                    <p id="pageDescription" class="page-description">
+                        Entenda as principais fontes de energia renovável e como elas ajudam a reduzir emissões de gases do efeito estufa.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Dynamic Content Area -->
+            <div class="content-area" id="contentArea">
+                <!-- Página 1: Energia Limpa -->
+                <section class="content-page active" id="energia" aria-labelledby="energia-title">
+                    <h3 id="energia-title" class="sr-only">Conteúdo sobre Energia Limpa</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Solar Fotovoltaica</h4>
+                            <p class="card-description">
+                                Como painéis solares convertem luz em eletricidade e onde aplicar em pequena e grande escala para maximizar a eficiência energética.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Energia Eólica</h4>
+                            <p class="card-description">
+                                Tecnologia de turbinas, impactos ambientais e integração com redes inteligentes para distribuição eficiente.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Hidrogênio Verde</h4>
+                            <p class="card-description">
+                                Produção via eletrólise usando energia renovável e aplicações futuras em transporte e indústria pesada.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Biomassa Sustentável</h4>
+                            <p class="card-description">
+                                Aproveitamento de resíduos orgânicos para geração de energia limpa e redução de desperdícios.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 2: Água -->
+                <section class="content-page" id="agua" aria-labelledby="agua-title">
+                    <h3 id="agua-title" class="sr-only">Conteúdo sobre Gestão da Água</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Gestão de Bacias Hidrográficas</h4>
+                            <p class="card-description">
+                                Planos integrados para manter disponibilidade e qualidade da água em diferentes regiões e climas.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Reuso e Dessalinização</h4>
+                            <p class="card-description">
+                                Técnicas avançadas para ampliar oferta hídrica em regiões secas e aproveitar águas residuais.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Saneamento Básico</h4>
+                            <p class="card-description">
+                                Impactos da falta de saneamento na saúde pública e soluções de baixo custo para comunidades.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Tecnologias de Purificação</h4>
+                            <p class="card-description">
+                                Métodos inovadores para tratamento de água contaminada e acesso universal à água potável.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 3: Biodiversidade -->
+                <section class="content-page" id="biodiversidade" aria-labelledby="biodiversidade-title">
+                    <h3 id="biodiversidade-title" class="sr-only">Conteúdo sobre Biodiversidade</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Proteção de Habitats</h4>
+                            <p class="card-description">
+                                Criação de reservas, corredores ecológicos e projetos de restauração de ecossistemas degradados.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Espécies Ameaçadas</h4>
+                            <p class="card-description">
+                                Como monitorar populações em risco e implementar ações efetivas de conservação.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Ciência Cidadã</h4>
+                            <p class="card-description">
+                                Envolvendo o público em coleta de dados científicos e monitoramento da biodiversidade local.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Polinizadores</h4>
+                            <p class="card-description">
+                                Importância das abelhas e outros polinizadores para agricultura e manutenção dos ecossistemas.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 4: Agricultura Sustentável -->
+                <section class="content-page" id="agricultura" aria-labelledby="agricultura-title">
+                    <h3 id="agricultura-title" class="sr-only">Conteúdo sobre Agricultura Sustentável</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Agroecologia</h4>
+                            <p class="card-description">
+                                Práticas agrícolas que aumentam resiliência, biodiversidade e produtividade sem agrotóxicos.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Sistemas Agroflorestais</h4>
+                            <p class="card-description">
+                                Combinação inteligente de árvores e culturas para produtividade sustentável e sequestro de carbono.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Solo Saudável</h4>
+                            <p class="card-description">
+                                Importância do carbono no solo, rotação de culturas e manejo para conservação da fertilidade.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Agricultura de Precisão</h4>
+                            <p class="card-description">
+                                Uso de tecnologia para otimizar recursos, reduzir desperdícios e aumentar eficiência produtiva.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 5: Gestão de Resíduos -->
+                <section class="content-page" id="residuos" aria-labelledby="residuos-title">
+                    <h3 id="residuos-title" class="sr-only">Conteúdo sobre Gestão de Resíduos</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Redução na Fonte</h4>
+                            <p class="card-description">
+                                Design de produtos e embalagens para minimizar desperdício desde a concepção até o descarte.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Economia Circular</h4>
+                            <p class="card-description">
+                                Modelos de negócio que mantêm materiais em uso contínuo, eliminando o conceito de lixo.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Reciclagem e Compostagem</h4>
+                            <p class="card-description">
+                                Boas práticas para processamento de resíduos orgânicos e materiais recicláveis em comunidades.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Logística Reversa</h4>
+                            <p class="card-description">
+                                Sistemas para retorno de produtos ao ciclo produtivo, responsabilizando fabricantes pelo descarte.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 6: Cidades e Mobilidade -->
+                <section class="content-page" id="cidades" aria-labelledby="cidades-title">
+                    <h3 id="cidades-title" class="sr-only">Conteúdo sobre Cidades e Mobilidade</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Mobilidade Ativa</h4>
+                            <p class="card-description">
+                                Benefícios de caminhar e pedalar para saúde pública, qualidade do ar e redução de emissões.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Infraestrutura Verde</h4>
+                            <p class="card-description">
+                                Telhados verdes, parques urbanos e soluções para mitigação de ilhas de calor nas cidades.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Transporte Público</h4>
+                            <p class="card-description">
+                                Como tornar sistemas de transporte mais eficientes, inclusivos e ambientalmente sustentáveis.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Cidades Inteligentes</h4>
+                            <p class="card-description">
+                                Tecnologias para otimizar recursos urbanos, melhorar qualidade de vida e reduzir impactos ambientais.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 7: Educação Ambiental -->
+                <section class="content-page" id="educacao" aria-labelledby="educacao-title">
+                    <h3 id="educacao-title" class="sr-only">Conteúdo sobre Educação Ambiental</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Comunicação Científica</h4>
+                            <p class="card-description">
+                                Técnicas para transformar pesquisa complexa em linguagem acessível e engajante para o público.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Programas Escolares</h4>
+                            <p class="card-description">
+                                Integração da sustentabilidade no currículo escolar e formação de cidadãos conscientes.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Engajamento Comunitário</h4>
+                            <p class="card-description">
+                                Ferramentas e estratégias para mobilizar ações locais orientadas por evidências científicas.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Mídia e Redes Sociais</h4>
+                            <p class="card-description">
+                                Uso responsável de plataformas digitais para disseminar conhecimento sobre sustentabilidade.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Página 8: Políticas e Economia -->
+                <section class="content-page" id="politicas" aria-labelledby="politicas-title">
+                    <h3 id="politicas-title" class="sr-only">Conteúdo sobre Políticas e Economia</h3>
+                    <div class="cards-grid">
+                        <article class="content-card">
+                            <h4 class="card-title">Instrumentos Econômicos</h4>
+                            <p class="card-description">
+                                Incentivos fiscais, créditos de carbono e precificação de externalidades ambientais.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Governança Ambiental</h4>
+                            <p class="card-description">
+                                Como políticas públicas efetivas podem promover desenvolvimento sustentável em diferentes escalas.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Parcerias Público-Privadas</h4>
+                            <p class="card-description">
+                                Colaboração entre setor público, privado e sociedade civil em soluções sustentáveis.
+                            </p>
+                        </article>
+                        <article class="content-card">
+                            <h4 class="card-title">Financiamento Verde</h4>
+                            <p class="card-description">
+                                Mecanismos de investimento em projetos sustentáveis e transição para economia de baixo carbono.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Site Footer -->
+            <footer class="site-footer" role="contentinfo">
+                <div class="footer-content">
+                    <p class="footer-text">
+                        Feito como demonstração — Conteúdo informativo para divulgação científica.
+                    </p>
+                    <p class="footer-credits">
+                        <small>Desenvolvido pela equipe de divulgação científica</small>
+                    </p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

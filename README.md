@@ -1,4 +1,43 @@
-# Desenvolvimento-Sustentável-na-Engenharia
-Repositório destinado para o Desenvolvimento Sustentável na Engenharia, no caso, é um projeto exigido na disciplina, para a extensão curricular dela, podendo ser cumprido (a entrega do projeto), com uma página no instagram, divulgando sobre a sustentabilidade e afins ou divulgação via site. No caso, foi optado o desenvolvimento de um site. 
+# Desenvolvimento Sustentável na Engenharia  
 
-Este repositório será utilizado para armazenar, todas as partes do desenvolvimento do site.
+Este repositório foi criado para o **projeto de extensão curricular** da disciplina de Engenharia, com foco em **Desenvolvimento Sustentável**.  
+
+A proposta do trabalho envolve a divulgação de conteúdos sobre sustentabilidade, podendo ser feita por meio de uma página no Instagram ou pela construção de um site.  
+
+Neste caso, foi escolhida a opção do **desenvolvimento de um site**.  
+
+---
+
+## Objetivo do Projeto  
+O projeto tem como finalidade:  
+- Disseminar informações relevantes sobre **sustentabilidade aplicada à Engenharia**.  
+- Mostrar a importância da **responsabilidade ambiental** dentro do contexto acadêmico e profissional.  
+- Utilizar ferramentas digitais como meio de **extensão e conscientização**.  
+
+---
+
+## Estrutura do Repositório  
+Aqui serão armazenadas todas as etapas de desenvolvimento do site, incluindo:  
+- **Documentações** do projeto.  
+- **Protótipos e designs**.  
+- **Códigos-fonte** (HTML, CSS, JS e outros).  
+- **Ajustes e implementações futuras**.  
+
+---
+
+## Tecnologias Previstas  
+- **HTML5** e **CSS3** → Estrutura e estilo do site.  
+- **JavaScript** → Interatividade e dinamicidade.  
+- **Outras bibliotecas/frameworks** → conforme a necessidade do desenvolvimento.  
+
+---
+
+## Colaboradores  
+Projeto desenvolvido por estudantes da disciplina, com o intuito de unir **Engenharia e Sustentabilidade**.  
+
+---
+
+## Impacto Esperado  
+Este site busca contribuir para a **conscientização sobre práticas sustentáveis**, reforçando a importância do desenvolvimento responsável dentro da Engenharia e no cotidiano.  
+
+---
