@@ -25,15 +25,25 @@ Aqui serão armazenadas todas as etapas de desenvolvimento do site, incluindo:
 
 ---
 
-## Tecnologias Previstas  
+## Linguagens Previstas  
 - **HTML5** e **CSS3** → Estrutura e estilo do site.  
 - **JavaScript** → Interatividade e dinamicidade.  
-- **Outras bibliotecas/frameworks** → conforme a necessidade do desenvolvimento.  
+- **Outras bibliotecas/frameworks/tecnologias** → conforme a necessidade do desenvolvimento.  
 
 ---
 
 ## Colaboradores  
-Projeto desenvolvido por estudantes da disciplina, com o intuito de unir **Engenharia e Sustentabilidade**.  
+Projeto desenvolvido por estudantes da disciplina, do curso de **Engenharia de Computação**:
+
+-
+-
+-
+- 
+-
+-
+-
+-
+-
 
 ---
 
