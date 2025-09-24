@@ -1,6 +1,6 @@
 /**
  * Site de Divulgação Científica - Desenvolvimento Sustentável
- * JavaScript para interatividade e navegação
+ * JavaScript para interatividade e navegação do site
  */
 
 // ===== CONFIGURAÇÕES E CONSTANTES =====

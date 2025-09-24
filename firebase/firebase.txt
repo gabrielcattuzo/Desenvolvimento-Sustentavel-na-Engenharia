@@ -1,1 +1,1 @@
-pasta destinada para armazenar os javascript da aba de login via conta google com o firebase para controle do site
+pasta destinada para armazenar os javascript da aba de login via conta google com o firebase para controle do site e outros.

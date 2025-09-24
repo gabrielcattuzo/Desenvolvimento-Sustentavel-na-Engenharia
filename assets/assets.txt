@@ -1,1 +1,1 @@
-pasta destinada para armazenar apenas as imagens utilizadas em qualquer aba do site, seja logo, imagem de fundo com mensagens com fundo transparente, etc.
+pasta destinada para armazenar apenas as imagens utilizadas em qualquer aba do site, seja logo, imagem de fundo com mensagens com fundo transparente, entre outros.

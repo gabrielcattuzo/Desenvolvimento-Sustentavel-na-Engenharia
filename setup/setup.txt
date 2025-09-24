@@ -1,1 +1,1 @@
-pasta destinada para colocar arquivos de setup do banco de dados (firebase init, etc)
+pasta destinada para colocar arquivos de setup do banco de dados (firebase init, etc) setup
