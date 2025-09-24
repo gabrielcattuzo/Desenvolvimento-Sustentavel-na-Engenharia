@@ -32,7 +32,7 @@ Aqui serão armazenadas todas as etapas de desenvolvimento do site, incluindo:
 
 ---
 
-## Colaboradores  
+## Integrantes do Grupo  
 Projeto desenvolvido por estudantes da disciplina, do curso de **Engenharia de Computação**:
 
 -
